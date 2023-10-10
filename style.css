@@ -1,0 +1,39 @@
+body {font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+header, footer {
+   background-color: #81bdf5; /* Change background color */
+}
+
+#my-image {
+   box-shadow: 0 0 2px 1px rgb(17, 13, 1); /* Add box shadow */
+}
+ul {
+   list-style-type: square; /* Use squares instead of bullets */
+}
+ul li:nth-child(odd) {
+   background-color: #f72673; /* Add background to odd list items */
+}
+
+nav ul {
+   list-style-type: none; /* Remove bullets */
+}
+nav a {
+   text-decoration: none; /* Remove underline */
+   background-color: #61c2c9; /* Add background color */
+   border: 1px solid black; /* Add border */
+   padding: 5px 10px; /* Add padding */
+   display: inline-block;
+}
+
+nav a:hover,
+nav a:focus {
+   background-color: #ddd; /* Change background on hover/focus */
+}
+footer {
+   background-color: #333;
+   color: white;
+   padding: 10px;
+   text-align: center;
+}
